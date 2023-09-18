@@ -8284,7 +8284,7 @@
               return t.replace(/-webkit-/g, O);
             })),
             (document.getElementById("header").innerHTML =
-              '<a href="#" id="pause-resume">Pause ||</a>\n<a href="#" id="skip-animation">Skip Animation --\x3e</a>\n<span style="float:right">\n<a href="https://github.com/sanjaiy003">GitHub</a>\n<a href="https://github.com/STRML/strml.net/blob/master/app.js">View Source</a>\n</span>\n'),
+              '<a href="#" id="pause-resume">Pause ||</a>\n<a href="#" id="skip-animation">Skip Animation --\x3e</a>\n<span style="float:right">\n<a href="https://github.com/sanjaiy003">GitHub</a>\n</span>\n'),
             ((t = document.createElement("style")).textContent =
               "/* I'm cheating a bit */\n\nhtml, body {\n  margin-top: 0;\n  height: 100%;\n  overflow: hidden;\n}\n\npre {\n  overflow: auto;\n  max-height: 90%;\n  width: 100%;\n  border-radius: 1px; /* Prevents bad clipping in Chrome */\n}\n\n#content {\n  position: absolute;\n  top: 0; right: 0; left: 0; bottom: 20px;\n}\n\n#header {\n  position: absolute;\n  bottom: 0;\n  height: 20px;\n  left: 0;\n  right: 0;\n  padding: 0 10px;\n}\n\na:after {\n  content: '';\n  padding-right: 5px;\n  border-right-width: 1px;\n  border-right-style: solid;\n  border-color: inherit;\n}\n\na:last-of-type:after {\n  border: none;\n}\n"),
             document.head.insertBefore(
